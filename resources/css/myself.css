@@ -1,0 +1,33 @@
+.avatar {
+    width: 30px;
+    height: 30px;
+    background: white;
+    text-align: center;
+    float: left;
+    margin-right: 5px;
+}
+
+.avatar img {
+    vertical-align: top;
+}
+
+.auth-font {
+    font-size: 24px
+}
+
+.img-border {
+    height: 50px;
+    width: 50px;
+    background: white;
+    overflow: hidden;
+    text-align: center !important;
+    border-radius: 5px;
+}
+
+.user-count{
+    text-align: center;
+}
+
+.new-line{
+    word-break:break-all;
+}
