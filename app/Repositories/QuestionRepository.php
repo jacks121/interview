@@ -99,7 +99,7 @@ class QuestionRepository
      * @param $state
      * @return int
      */
-    private function updateFollowersCount(Question $question, $state)
+    private function updateFollowersCount($question, $state)
     {
         if ( $state ) {
             return $question->increment('followers_count');

@@ -68,7 +68,6 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">首页</a>
                     @else
                         <a href="{{ route('login') }}">登录</a>
 
@@ -86,7 +85,7 @@
 
                 <div class="links">
                     <a href="/project">项目介绍</a>
-                    <a href="https://blog.laravel.com">项目代码</a>
+                    <a href="https://github.com/jacks121/interview">项目代码</a>
                     <a href="/questions">项目展示</a>
                 </div>
             </div>
