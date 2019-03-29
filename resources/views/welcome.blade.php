@@ -86,7 +86,7 @@
 
                 <div class="links">
                     <a href="/project">项目介绍</a>
-                    <a href="https://blog.laravel.com">项目代码</a>
+                    <a href="https://github.com/jacks121/interview">项目代码</a>
                     <a href="/questions">项目展示</a>
                 </div>
             </div>
