@@ -21,7 +21,7 @@ class AnswerRepository
             'user_id'     => userId(),
         ]);
         $result = Answer::create($fill_data);
-        $question = Question::RfindAll($question_id);
+        $question = Question::where('id',$question_id)->first();
         $question->RIncrement('answers_count');
 
         return $result;
