@@ -47,7 +47,7 @@ class QuestionFollowController extends Controller
     public function follow(Request $request)
     {
         $result = $this->repository->follow($request->question, $this->user);
-
+	
         return returnJson(['followed' => $result]);
     }
 }
