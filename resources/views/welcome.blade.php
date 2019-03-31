@@ -87,6 +87,7 @@
                     <a href="/project">项目介绍</a>
                     <a href="https://github.com/jacks121/interview">项目代码</a>
                     <a href="/questions">项目展示</a>
+                    <a href="https://github.com/jacks121/docker">Docker-compose生产环境</a>
                     <a href="https://hub.docker.com/r/jacks12/interview">Docker镜像/开发环境 + 代码</a>
                 </div>
             </div>
