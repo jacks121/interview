@@ -43,3 +43,6 @@ Route::get('/project',function(){
     return view('project');
 });
 
+Route::get('/mind',function(){
+    return view('mind_node');
+});
