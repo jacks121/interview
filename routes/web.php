@@ -46,3 +46,7 @@ Route::get('/project',function(){
 Route::get('/mind',function(){
     return view('mind_node');
 });
+
+Route::get('/docker',function(){
+    return view('docker');
+});
