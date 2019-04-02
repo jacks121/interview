@@ -2,9 +2,10 @@
 
 ###开发环境
 - 操作系统 MAC OS
-- web服务器 APACHE
-- 数据库 MySQL 5.7
-- 编程语言 PHP 7.1
+- 开发平台 Docker
+- web服务器 Nginx
+- 数据库 MySQL 5.7 PXC集群
+- 编程语言 PHP 7.1 php-fpm
 - 缓存 Redis
 - 版本管理 Git
 
@@ -459,6 +460,3 @@
    - Laravel mix 编译前端文件
    - Vue-image-crop-upload 图片裁剪上传
    - Bootstrap 4 页面部署 
-
-
-
