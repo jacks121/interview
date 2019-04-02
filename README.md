@@ -448,7 +448,6 @@
 | predis/predis | Redis扩展 | 缓存了提问数据 |
 
 
---
 ###前端代码
 - 框架
    - Vue.js 主要使用了vue-component 做了 关注用户 关注问题等组件
