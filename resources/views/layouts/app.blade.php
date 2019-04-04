@@ -55,6 +55,9 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/notifications">
+                                        站内信
+                                    </a>
                                     <a class="dropdown-item" href="/edit/avatar">
                                         修改头像
                                     </a>
