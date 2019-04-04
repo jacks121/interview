@@ -2,13 +2,14 @@
 
 ###开发环境
 - 操作系统 MAC OS
-- web服务器 APACHE
-- 数据库 MySQL 5.7
-- 编程语言 PHP 7.1
+- 开发平台 Docker
+- web服务器 Nginx
+- 数据库 MySQL 5.7 PXC集群
+- 编程语言 PHP 7.1 php-fpm
 - 缓存 Redis
 - 版本管理 Git
 
---
+
 ###服务端代码
 - 框架 Laravel 5.7
 - 使用到的特性 
@@ -447,7 +448,6 @@
 | predis/predis | Redis扩展 | 缓存了提问数据 |
 
 
---
 ###前端代码
 - 框架
    - Vue.js 主要使用了vue-component 做了 关注用户 关注问题等组件
@@ -459,6 +459,3 @@
    - Laravel mix 编译前端文件
    - Vue-image-crop-upload 图片裁剪上传
    - Bootstrap 4 页面部署 
-
-
-
